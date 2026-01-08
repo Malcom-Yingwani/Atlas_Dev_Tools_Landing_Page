@@ -16,7 +16,7 @@ const joinButton = document.getElementById('join_button');
             
             if (email) {
                 // Clear the email field
-                emailField.value = "successMessage.style.display = ''";
+                emailField.value = '';
                 
                 // Show success message
                 successMessage.style.display = '';
@@ -26,7 +26,6 @@ const joinButton = document.getElementById('join_button');
                     successMessage.style.display = 'none';
                 }, 4000);
                 
-                console.log('Email submitted:', email);
             }
         });
     }

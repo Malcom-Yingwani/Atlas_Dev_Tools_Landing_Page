@@ -11,6 +11,10 @@ body {
     padding: 0;
 }
 
+ html {
+     scroll-behavior: smooth;
+ }
+
 #hero_section,
 #Features,
 #How_It_Works,
@@ -71,7 +75,7 @@ body {
     margin: 0 auto;
     justify-content: center;
     font-size: x-large;
-    padding-top: 8rem;
+    padding-top: 4rem;
     padding-bottom: 3rem;
 }
 
@@ -91,7 +95,7 @@ body {
 }
 
 #hero_image {
-    width: 100%;
+    width: 60%;
     max-width: 800px;
     height: auto;
     display: block;
