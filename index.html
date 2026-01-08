@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas Dev Titles</title>
+    <title>Atlas Dev Tools</title>
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
    
     <!-- Navigation -->
      <div class="nav_container">
         <div class="logo">
-            <a href="#Atlas_Dev_Tools"></a><img src="images/logo_cropped.png" alt="Atlas Dev Tools" class="logo_img">
+            <a href="#hero_section">
+                <img src="images/logo_cropped.png" alt="Atlas Dev Tools" class="logo_img" id="logo">
+            </a>
         </div>
         <ul class="navbar_items">
                 <li class="nav-item"><a href="#Features">Features</a></li>
@@ -25,7 +32,7 @@
     <!-- Hero Section -->
      <div class="hero_container" id="Atlas_Dev_Tools">
         
-        <section id="Hero_section">
+        <section id="hero_section">
             <h1 id="main_text">Build Faster. Learn Smarter.</h1>
             
             <hr class="section_divider">
@@ -54,27 +61,27 @@
             </div>
             <div class="feature_cards_container">
             
-                <ul class="card_item">
+                <article class="card_item">
                     <h3>Auto Oraganise</h3>
                     <div class="feature_description">
                          <p > Short description </p>
                     </div>
                    
-                </ul>
-                <ul class="card_item">
+                </article>
+                <article class="card_item">
                     <h3>Smart Scripts</h3>
                     <div class="feature_description">
                          <p > Short description</p>
                     </div>
                    
-                </ul>
-                <ul class="card_item">
+                </article>
+                <article class="card_item">
                     <h3>Track Progress</h3>
                     <div class="feature_description">
                         <p >Short description is a way of saying I love you, no matter waht</p>
                     </div>
                     
-                </ul>
+                </article>
 
             </div>
         
@@ -107,8 +114,8 @@
             <h2>Join the Early Acces List</h2>
         </div>
         <div class="email_input">
-            <input type="text" placeholder="email@example.com" id="email_field">
-            <button class="btn btn-primary" id="join_button">Notify Me</button>
+            <input type="email" placeholder="email@example.com" id="email_field">
+            <button class="btn btn-primary" type="submit" id="join_button">Notify Me</button>
         </div>
         <div class="title" style="font-size: 20px; padding: 20px; display: none">Succes Messages</div>
      </div>
